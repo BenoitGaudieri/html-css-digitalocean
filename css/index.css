@@ -35,6 +35,14 @@ body {
     margin-left: 10px;
 }
 
+sub-h-color {
+    color: #6f7b97;
+}
+
+.p-color {
+    color: #5c6a88;
+}
+
 /* 
   _   _             _                
  | \ | | __ ___   _| |__   __ _ _ __ 
@@ -81,10 +89,18 @@ body {
     vertical-align: top;
 }
 
-/* Jumbotron */
+/* 
+      _                 _           _                   
+     | |_   _ _ __ ___ | |__   ___ | |_ _ __ ___  _ __  
+  _  | | | | | '_ ` _ \| '_ \ / _ \| __| '__/ _ \| '_ \ 
+ | |_| | |_| | | | | | | |_) | (_) | |_| | | (_) | | | |
+  \___/ \__,_|_| |_| |_|_.__/ \___/ \__|_|  \___/|_| |_|
+                                                         
+*/
 .jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
     background-size: cover;
+    margin-bottom: 0;
 
 }
 
@@ -102,6 +118,7 @@ body {
     font-size: 26px;
 }
 
+/* Form */
 /* FIX: IN MEDIA QUERY */
 .form-box {
     background-color: #fff;
@@ -163,10 +180,20 @@ body {
     width: 100%;
 }
 
-/* Businesses */
+/* 
+  ____            _                               
+ | __ ) _   _ ___(_)_ __   ___  ___ ___  ___  ___ 
+ |  _ \| | | / __| | '_ \ / _ \/ __/ __|/ _ \/ __|
+ | |_) | |_| \__ \ | | | |  __/\__ \__ \  __/\__ \
+ |____/ \__,_|___/_|_| |_|\___||___/___/\___||___/
+                                                   
+*/
+.businesses {
+    background-color: #f3f5f9;
+}
+
 .businesses h3 {
     font-size: 20px;
-    color: #6f7b97;
 }
 
 .businesses img {
@@ -179,4 +206,60 @@ body {
     display: block;
     font-size: 17px;
     font-weight: 500;
+    padding-bottom: 30px;
+}
+
+/* 
+  ____             _             
+ |  _ \  ___ _ __ | | ___  _   _ 
+ | | | |/ _ \ '_ \| |/ _ \| | | |
+ | |_| |  __/ |_) | | (_) | |_| |
+ |____/ \___| .__/|_|\___/ \__, |
+            |_|            |___/  
+*/
+.deploy-header {
+    margin: 30px;
+    font-weight: 500;
+}
+
+.deploy-header h2 {
+    font-size: 35px;
+}
+
+.deploy-header p {
+    top: 22px;
+    font-size: 24px;
+}
+
+.deploy-list {
+    font-size: 24px;
+    position: relative;
+    padding-left: 10px;
+    line-height: 50px;
+    color: #5c6a88;
+}
+
+.deploy-list::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #cccccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.deploy-content {
+    margin-bottom: 30px;
+    height: 140px;
+    font-weight: 500;
+}
+
+.deploy-content h4 {
+    color: #031c4e;
+}
+
+.deploy-content p {
+    color: #5c6a88;
+
 }
