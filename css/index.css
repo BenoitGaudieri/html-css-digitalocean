@@ -35,8 +35,8 @@ body {
     margin-left: 10px;
 }
 
-sub-h-color {
-    color: #6f7b97;
+.sub-h-color {
+    color: #031c4e;
 }
 
 .p-color {
@@ -261,5 +261,33 @@ sub-h-color {
 
 .deploy-content p {
     color: #5c6a88;
+}
 
+/* 
+  ____                 _                           
+ |  _ \  _____   _____| | ___  _ __   ___ _ __ ___ 
+ | | | |/ _ \ \ / / _ \ |/ _ \| '_ \ / _ \ '__/ __|
+ | |_| |  __/\ V /  __/ | (_) | |_) |  __/ |  \__ \
+ |____/ \___| \_/ \___|_|\___/| .__/ \___|_|  |___/
+                              |_|                   
+*/
+.developers {
+    background-color: #f3f5f9;
+}
+
+.developers-content {
+    line-height: 100px;
+}
+
+.developers-content h3 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.developers-content span {
+    font-size: 24px;
+}
+
+.developers-screen img {
+    height: 300px;
 }
