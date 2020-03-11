@@ -29,6 +29,12 @@ body {
     content: "\f078";
 }
 
+.link::after {
+    content: '\003e';
+    display: inline-block;
+    margin-left: 10px;
+}
+
 /* 
   _   _             _                
  | \ | | __ ___   _| |__   __ _ _ __ 
@@ -88,6 +94,7 @@ body {
 
 .jumbotron h2 {
     font-size: 75px;
+    font-weight: 700;
 }
 
 .jumbotron p {
@@ -112,6 +119,7 @@ body {
 .form-content h3,
 .form-content a {
     font-size: 30px;
+    font-weight: 700;
 }
 
 .form-group {
@@ -120,7 +128,7 @@ body {
 
 .form-group input {
     border: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .form-content .btn-primary {
@@ -140,9 +148,35 @@ body {
 
 .group-btn {
     margin-bottom: 10px;
+    position: relative;
+}
+
+.group-btn img {
+    text-align: left;
+    height: 20px;
+    position: absolute;
+    left: 10px;
 }
 
 .form-content .btn {
     display: block;
     width: 100%;
+}
+
+/* Businesses */
+.businesses h3 {
+    font-size: 20px;
+    color: #6f7b97;
+}
+
+.businesses img {
+    display: inline-block;
+    width: calc((100% / 6) - 1%);
+    margin: 3px;
+}
+
+.businesses .link {
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
 }
