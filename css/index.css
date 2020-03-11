@@ -228,8 +228,12 @@ body {
  |____/ \___| .__/|_|\___/ \__, |
             |_|            |___/  
 */
+.deploy {
+    margin-bottom: 70px;
+}
+
 .deploy-header {
-    margin: 30px;
+    margin: 60px;
     font-weight: 500;
 }
 
@@ -262,8 +266,12 @@ body {
 
 .deploy-content {
     margin-bottom: 30px;
-    height: 140px;
+    height: 150px;
     font-weight: 500;
+}
+
+.deploy-content img {
+    margin-bottom: 10px;
 }
 
 .deploy-content h4 {
@@ -272,6 +280,7 @@ body {
 
 .deploy-content p {
     color: #5c6a88;
+    font-size: 16px;
 }
 
 /* 
