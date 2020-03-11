@@ -1,0 +1,77 @@
+/* GENERAL STYLES */
+body {
+    padding-top: 70px;
+    font-family: "Roboto";
+}
+
+/* UTILITIES */
+
+.relative {
+    position: relative;
+}
+
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow a::after {
+    display: inline-block;
+    margin-left: 1px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+}
+
+/* 
+  _   _             _                
+ | \ | | __ ___   _| |__   __ _ _ __ 
+ |  \| |/ _` \ \ / / '_ \ / _` | '__|
+ | |\  | (_| |\ V /| |_) | (_| | |   
+ |_| \_|\__,_| \_/ |_.__/ \__,_|_|   
+                                      
+*/
+.main-header-c {
+    background: #fff;
+}
+
+.navbar {
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.navbar-brand {
+    height: 65px;
+    max-height: 100%;
+}
+
+.navbar li a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar li .btn-default {
+    background-color: #fff;
+    border-color: #006aff;
+    color: #006aff;
+}
+
+.left-col {
+    padding: 0;
+}
+
+.right-col {
+    text-align: right;
+}
+
+
+
+/* HAMBURGER */
+.nav-ham {
+    margin-right: 10px;
+    font-size: 175%;
+    vertical-align: top;
+}
