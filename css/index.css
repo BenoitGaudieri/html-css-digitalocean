@@ -17,6 +17,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .arrow a::after {
     display: inline-block;
     margin-left: 1px;
@@ -33,13 +37,10 @@ body {
  |_| \_|\__,_| \_/ |_.__/ \__,_|_|   
                                       
 */
-.main-header-c {
-    background: #fff;
-}
-
 .navbar {
     line-height: 70px;
     text-transform: capitalize;
+    background: #fff;
 }
 
 .navbar-brand {
@@ -59,19 +60,89 @@ body {
     color: #006aff;
 }
 
-.left-col {
+.navbar .left-col {
     padding: 0;
 }
 
-.right-col {
+.navbar .right-col {
     text-align: right;
 }
-
-
 
 /* HAMBURGER */
 .nav-ham {
     margin-right: 10px;
     font-size: 175%;
     vertical-align: top;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+
+}
+
+.jumbotron .left-col {
+    color: #fff;
+}
+
+.jumbotron h2 {
+    font-size: 75px;
+}
+
+.jumbotron p {
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 26px;
+}
+
+/* FIX: IN MEDIA QUERY */
+.form-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 450px;
+}
+
+.form-content {
+    padding-top: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 23px;
+}
+
+.form-content h3,
+.form-content a {
+    font-size: 30px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group input {
+    border: none;
+    font-weight: 700;
+}
+
+.form-content .btn-primary {
+    background-color: #579aff;
+    border-color: #579aff;
+    color: #fff;
+}
+
+.tos,
+.tos a {
+    font-size: 14px;
+}
+
+.tos a {
+    text-decoration: underline;
+}
+
+.group-btn {
+    margin-bottom: 10px;
+}
+
+.form-content .btn {
+    display: block;
+    width: 100%;
 }
