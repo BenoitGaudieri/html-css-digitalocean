@@ -201,6 +201,7 @@ body {
 */
 .businesses {
     background-color: #f3f5f9;
+    padding-top: 30px;
 }
 
 .businesses h3 {
@@ -293,6 +294,7 @@ body {
 */
 .developers {
     background-color: #f3f5f9;
+    padding-bottom: 70px;
 }
 
 .developers-content {
@@ -310,6 +312,20 @@ body {
 
 .developers-screen img {
     height: 300px;
+}
+
+.developers-underscreen {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.developers-underscreen span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.developers-underscreen i {
+    color: #006aff;
 }
 
 /* 
