@@ -54,6 +54,56 @@ body {
     font-size: 35px;
 }
 
+.chevrons::before {
+    content: "\f053";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #6f7b97;
+    font-size: 40px;
+    margin-right: 50px;
+    transform: translateY(10px);
+}
+
+.chevrons::after {
+    content: "\f054";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #031c4e;
+    font-size: 40px;
+    margin-left: 50px;
+    transform: translateY(10px);
+}
+
+.chevrons-absolute::before {
+    content: "\f053";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #6f7b97;
+    font-size: 40px;
+    margin-right: 50px;
+    transform: translateY(10px);
+    position: absolute;
+    top: 40%;
+    right: 70%;
+}
+
+.chevrons-absolute::after {
+    content: "\f054";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #031c4e;
+    font-size: 40px;
+    margin-left: 50px;
+    transform: translateY(10px);
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+
 /* 
   _   _             _                
  | \ | | __ ___   _| |__   __ _ _ __ 
@@ -364,24 +414,79 @@ body {
 */
 .service {
     padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 50px;
     background-color: #0038b5;
-    height: 300px;
+    height: 100%;
 }
 
 .service-content {
     border-bottom: 1px solid #fff;
     padding-left: 10px;
+    line-height: 30px;
 }
 
 .service-content-code {
     color: #fff;
+    display: inline-block;
+    padding-right: 50px;
 }
 
 .service-content-location {
     color: #bac8e9;
+    display: inline-block;
 }
 
 .service-content-link {
     color: #00bece;
+    float: right;
+    padding-right: 10px;
+}
+
+/* 
+  ____                 _                                  _   
+ |  _ \  _____   _____| | ___  _ __  _ __ ___   ___ _ __ | |_ 
+ | | | |/ _ \ \ / / _ \ |/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|
+ | |_| |  __/\ V /  __/ | (_) | |_) | | | | | |  __/ | | | |_ 
+ |____/ \___| \_/ \___|_|\___/| .__/|_| |_| |_|\___|_| |_|\__|
+                              |_|                              
+*/
+.development {
+    background-color: #f3f5f9;
+    padding-bottom: 70px;
+}
+
+.development-content {
+    line-height: 100px;
+}
+
+.development-content h3 {
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.development-content span {
+    font-size: 24px;
+}
+
+.development-box {
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.development-underscreen {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.development-underscreen span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.development-underscreen i {
+    color: #006aff;
 }
