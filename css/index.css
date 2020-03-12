@@ -419,6 +419,12 @@ body {
     height: 100%;
 }
 
+.service h2 {
+    font-size: 35px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
 .service-content {
     border-bottom: 1px solid #fff;
     padding-left: 10px;
