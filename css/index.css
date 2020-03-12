@@ -353,3 +353,35 @@ body {
     font-weight: 700;
     font-size: 16px;
 }
+
+/* 
+  ____                  _          
+ / ___|  ___ _ ____   _(_) ___ ___ 
+ \___ \ / _ \ '__\ \ / / |/ __/ _ \
+  ___) |  __/ |   \ V /| | (_|  __/
+ |____/ \___|_|    \_/ |_|\___\___|
+                                    
+*/
+.service {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: #0038b5;
+    height: 300px;
+}
+
+.service-content {
+    border-bottom: 1px solid #fff;
+    padding-left: 10px;
+}
+
+.service-content-code {
+    color: #fff;
+}
+
+.service-content-location {
+    color: #bac8e9;
+}
+
+.service-content-link {
+    color: #00bece;
+}
