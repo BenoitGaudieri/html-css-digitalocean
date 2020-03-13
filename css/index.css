@@ -30,7 +30,7 @@ body {
 
 .arrow a::after {
     display: inline-block;
-    margin-left: 1px;
+    margin-left: 3px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f078";
@@ -52,56 +52,6 @@ body {
 
 .sub-h-size {
     font-size: 35px;
-}
-
-.chevrons::before {
-    content: "\f053";
-    display: inline-block;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #6f7b97;
-    font-size: 40px;
-    margin-right: 50px;
-    transform: translateY(10px);
-}
-
-.chevrons::after {
-    content: "\f054";
-    display: inline-block;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #031c4e;
-    font-size: 40px;
-    margin-left: 50px;
-    transform: translateY(10px);
-}
-
-.chevrons-absolute::before {
-    content: "\f053";
-    display: inline-block;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #6f7b97;
-    font-size: 40px;
-    margin-right: 50px;
-    transform: translateY(10px);
-    position: absolute;
-    top: 40%;
-    right: 70%;
-}
-
-.chevrons-absolute::after {
-    content: "\f054";
-    display: inline-block;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #031c4e;
-    font-size: 40px;
-    margin-left: 50px;
-    transform: translateY(10px);
-    position: absolute;
-    top: 40%;
-    left: 70%;
 }
 
 /* 
@@ -170,13 +120,13 @@ body {
 }
 
 .jumbotron h2 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 700;
 }
 
 .jumbotron p {
     color: rgba(255, 255, 255, 0.705);
-    font-size: 26px;
+    font-size: 23px;
 }
 
 /* Form */
@@ -184,7 +134,7 @@ body {
 .form-box {
     background-color: #fff;
     border-radius: 5px;
-    width: 450px;
+    max-width: 100%;
 }
 
 .form-content {
@@ -361,7 +311,8 @@ body {
 }
 
 .developers-screen img {
-    height: 300px;
+    height: 390px;
+    max-width: 100%;
 }
 
 .developers-underscreen {
@@ -425,6 +376,10 @@ body {
     padding-bottom: 15px;
 }
 
+.service-table {
+    margin-bottom: 20px;
+}
+
 .service-content {
     border-bottom: 1px solid #fff;
     padding-left: 10px;
@@ -435,11 +390,13 @@ body {
     color: #fff;
     display: inline-block;
     padding-right: 50px;
+    text-transform: uppercase;
 }
 
 .service-content-location {
     color: #bac8e9;
     display: inline-block;
+    text-transform: capitalize;
 }
 
 .service-content-link {
@@ -461,10 +418,6 @@ body {
     padding-bottom: 70px;
 }
 
-.development-content {
-    line-height: 100px;
-}
-
 .development-content h3 {
     font-size: 35px;
     padding-top: 40px;
@@ -475,11 +428,39 @@ body {
 }
 
 .development-box {
-    height: 300px;
-    width: 500px;
+    height: 390px;
+    width: 600px;
+    max-width: 100%;
     background-color: #fff;
     display: inline-block;
     vertical-align: middle;
+}
+
+.development-box img {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+
+.development-box-text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.development-box-ricky {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.development-box-vanity {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.development-box a {
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .development-underscreen {
@@ -612,6 +593,7 @@ body {
 
 .help-numb {
     background-color: #ff0001;
+    color: #fff;
     border-radius: 50%;
     border: 5px solid #fff;
     width: 30px;
@@ -620,4 +602,36 @@ body {
     top: -10px;
     right: -10px;
     z-index: 1;
+}
+
+/* 
+  __  __          _ _        ___                        
+ |  \/  | ___  __| (_) __ _ / _ \ _   _  ___ _ __ _   _ 
+ | |\/| |/ _ \/ _` | |/ _` | | | | | | |/ _ \ '__| | | |
+ | |  | |  __/ (_| | | (_| | |_| | |_| |  __/ |  | |_| |
+ |_|  |_|\___|\__,_|_|\__,_|\__\_\\__,_|\___|_|   \__, |
+                                                  |___/ 
+*/
+@media all and (min-width: 768px) {
+    .chevrons::before {
+        content: "\f053";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #6f7b97;
+        font-size: 40px;
+        margin-right: 20px;
+        transform: translateY(10px);
+    }
+
+    .chevrons::after {
+        content: "\f054";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #031c4e;
+        font-size: 40px;
+        margin-left: 20px;
+        transform: translateY(10px);
+    }
 }
