@@ -210,7 +210,7 @@ body {
 
 .businesses img {
     display: inline-block;
-    width: calc((100% / 6) - 1%);
+    width: calc((100% / 6) - 3%);
     margin: 3px;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .deploy-content {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     height: 150px;
     font-weight: 500;
 }
@@ -541,6 +541,7 @@ body {
 .main-footer .social {
     font-size: 25px;
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .main-footer .social i {
@@ -621,7 +622,7 @@ body {
  |_|  |_|\___|\__,_|_|\__,_|\__\_\\__,_|\___|_|   \__, |
                                                   |___/ 
 */
-@media all and (min-width: 768px) {
+@media all and (min-width: 990px) {
     .chevrons::before {
         content: "\f053";
         display: inline-block;
@@ -643,4 +644,53 @@ body {
         margin-left: 20px;
         transform: translateY(10px);
     }
+}
+
+@media all and (max-width: 1200px) {
+
+    /* Shark */
+    .helper {
+        left: 10%;
+        bottom: 25%;
+    }
+
+    .help-box {
+        right: 0;
+        top: 120%;
+        left: 10%;
+    }
+
+    .angle::before {
+        left: 0;
+        bottom: 50px;
+    }
+}
+
+@media all and (max-width: 990px) {
+
+    /* Deploy section */
+    .deploy-content {
+        margin-bottom: 10px;
+    }
+
+    /* Features */
+    .features {
+        margin-bottom: 100px;
+    }
+
+    .features-content {
+        margin: 20px;
+    }
+}
+
+@media all and (max-width: 749px) {
+
+    /* Businesses section */
+    .businesses img {
+        display: inline-block;
+        width: calc((100% / 2) - 5%);
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+
 }
