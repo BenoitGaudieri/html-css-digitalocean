@@ -538,6 +538,15 @@ body {
     font-size: 2em;
 }
 
+.main-footer .social {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.main-footer .social i {
+    padding-right: 10px;
+}
+
 /* 
   _   _      _                 
  | | | | ___| |_ __   ___ _ __ 
