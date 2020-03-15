@@ -159,6 +159,10 @@ body {
     font-weight: 500;
 }
 
+.form-content .btn {
+    margin-bottom: 1px;
+}
+
 .form-content .btn-primary {
     background-color: #579aff;
     border-color: #579aff;
